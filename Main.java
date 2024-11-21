@@ -3,7 +3,46 @@ import java.util.Scanner;
 public class Main {
 
    public static void main(String []args) {
+
+      // FOR LOOPS  are "shortcuts" for looping when you know many times the loop should run
+      // all loop CONTORL infor is in the header
+      for (int i  = 0; i < 13; i++) {
+         // LOOP BODY  (process to be repeated)
+         System.out.println("For loop, i = " + i);
+      }
+
+      //You can change the cariable by anyting!
+      // What does this loop do? -> counting even numbers
+      //
+      for (int i = 8; i<= 22; i+=2) {
+         System.out.println("For loop 2, i = " + i);
+      }
+
+      // BACKWARDS Looping 
+      // you must change all 3 loop contorl parts!1
+      for (int i = 12; i >= 1; i--) {
+         System.out.println(i + "bottles of coke on the wall");
+         System.out.println(i + "bottles of coke");
+         System.out.println("Take one down, pass it around");
+         System.out.println((i - 1) + "bottles of coke on the wall!");
+         // Check if on the last bottle (final iteration)
+         if (i == 1) {
+            System.out.println("They are all gone ....");
+         }
+      }
       
+
+
+
+
+
+
+
+
+
+
+
+
       //guessing game
       Scanner scan = new Scanner(System.in);
       // Choose a random number from 0-100
