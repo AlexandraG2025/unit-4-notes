@@ -62,7 +62,19 @@ public class Main {
         // Concatentate with the letter at current index
         reversedS = reversedS + s.substring(index, index + 1);
       }
-      System.out.println("Reversed: " + reversedS);
+      System.out.println("Reversed: " + reversedS); 
+      
+      //Nested loops
+      //outer loop
+      for (int row = 1; row <= 10; row++) {
+         // inner loop (5 times for each outer loop)
+         for (int col =1; col <= 8; col++){
+            // statment in this loop body executes 15 total times
+            System.out.print("*");
+         }
+         //after cols are printed, next line
+         System.out.println();
+      }
 
 
 
